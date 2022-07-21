@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+ 
+ class cars{
+     public:
+    string carsname;
+    string carscolor;
+    int carsprice;
+    
+ };
+
+ int main()
+ {
+    cars bmw;
+    bmw.carsname = "bmw q7";
+    bmw.carscolor = "black";
+    bmw.carsprice = 2;
+    cout<< " The name of car"<< bmw.carsname<<endl;
+    cout<< " The color of car"<<    bmw.carscolor << endl;
+    cout<< " The price of car"<< bmw.carsprice << endl;
+
+ }
+
+
+// https://github.com/praveenkumar9767 //
